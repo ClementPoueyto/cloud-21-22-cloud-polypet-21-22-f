@@ -1,0 +1,4 @@
+runtime: nodejs14 # or another supported version
+service: polypet-f-cart
+basic_scaling:
+  max_instances: 1

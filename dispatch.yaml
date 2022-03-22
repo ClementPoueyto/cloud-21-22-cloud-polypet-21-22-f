@@ -1,0 +1,15 @@
+dispatch:
+  - url: "*/cart*"
+    service: polypet-f-cart
+  - url: "*/test*"
+    service: default
+  - url: "*/catalog*"
+    service: polypet-f-catalog
+  - url: "*/order*"
+    service: polypet-f-order
+  - url: "*/partner*"
+    service: polypet-f-partner
+  - url: "*/analytics*"
+    service: polypet-f-analytics
+  - url: "*/notification*"
+    service: polypet-f-notification
